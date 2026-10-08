@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelompok 7</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: rgb(255, 87, 207);
+      padding: 20px;
+    }
+    .header h1 {
+      text-align: center;
+      color: #000000;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .header p {
+      text-align: center;
+      color: #000000;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .header hr {
+      height: 2px;
+      background-color: #000000;
+      width: 2%;
+      margin: 10px auto;
+    }
+
+    .main {
+      padding: 20px;
+    }
+    .main .intro {
+      border: 2px solid rgb(255, 87, 207);
+      border-radius: 20px;
+      display: flex;
+      padding: 20px;
+    }
+    .main .intro .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: rgb(255, 87, 207);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .main .intro .intro-text {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .anggota {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .anggota .card {
+      grid-column: span 2;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      padding: 20px;
+      border: 2px solid rgb(255, 87, 207);
+      border-radius: 20px;
+    }
+    .anggota .card:last-child {
+      grid-column: 2 / span 2;
+    }
+    .anggota .card .card-image img {
+      width: 200px;
+      border: 2px solid rgb(255, 87, 207);
+      border-radius: 5px;
+    }
+    .anggota .card .card-content {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1.5;
+      font-size: 0.9rem;
+      width: fit-content;
+    }
+    .anggota .card .card-content h3 {
+      margin-bottom: 10px;
+    }
+    .anggota .card .card-content .role {
+      font-size: 0.8rem;
+      background-color: rgb(255, 87, 207);
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .footer {
+      background-color: rgb(255, 87, 207);
+      padding: 30px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <h1>👥 <br />Kelompok 7</h1>
+      <p>Desain UI/UX & Pemrograman Web</p>
+      <hr />
+    </header>
+    <section class="main">
+      <section class="intro">
+        <div class="logo">
+          <h1>👥</h1>
+        </div>
+        <div class="intro-text">
+          <h2>Intro</h2>
+          <p>Ini adalah intro tentang kelompok 7.</p>
+        </div>
+      </section>
+      <section class="anggota">
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/fatih.jpeg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3><span class="role">Faatih Syarfiq Al Ma'ruf</span></h3>
+            <p>NIM: 0110226055</p>
+            <p>Program Studi: Teknik Informatika</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/erina.jpeg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Erina Melati Batubara<span class="role">Anggota</span></h3>
+            <p>NIM: 0110226073</p>
+            <p>Program Studi: Teknik Informatika</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/dzikra.jpeg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Dzikra Fajra Aulia <span class="role">Anggota</span></h3>
+            <p>NIM: 0110226048</p>
+            <p>Program Studi: Teknik Informatika</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/abyan.jpeg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Dzakwan Abyan Zubair <span class="role">Anggota</span></h3>
+            <p>NIM: 0110226093</p>
+            <p>Program Studi: Teknik Informatika</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/fahri.jpeg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>
+              Fahri Abrian Herdiansyah <span class="role">Anggota</span>
+            </h3>
+            <p>NIM: 0110226142</p>
+            <p>Program Studi: Teknik Informatika</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2026 Kelompok 7. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
