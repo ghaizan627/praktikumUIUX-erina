@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Profile</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .biodata {
+        display: flex;
+        padding: 20px;
+        gap: 7rem;
+      }
+      .biodata .gambar {
+        flex: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .gambar img {
+        width: 200px;
+        height: 300px;
+        border: solid 2px black;
+        border-radius: 10px;
+      }
+      .biodata .isi-biodata {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .categories {
+        padding: 20px;
+        width: 200px;
+      }
+      .deskripsi-diri {
+        padding: 20px;
+        text-align: justify;
+      }
+      .konten-multimedia {
+        padding: 20px;
+        display: flex;
+        gap: 3rem;
+        justify-content: space-evenly;
+        align-self: center;
+      }
+
+      .konten-multimedia .area-video {
+        width: max-content;
+      }
+      .konten-multimedia .area-video iframe {
+        border: solid black 4px;
+        width: 500px;
+        height: 200px;
+      }
+      .konten-multimedia .koleksi-foto {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .konten-multimedia .koleksi-foto img {
+        width: 100px;
+      }
+      .konten-multimedia .download-file fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 10px;
+      }
+      .konten-multimedia .download-file fieldset legend {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="biodata">
+      <div class="gambar">
+        <img src="assets/img/erina.jpeg" alt="" />
+      </div>
+      <div class="isi-biodata">
+        <h1>Biodata diri</h1>
+        <p>Nama lengkap:Erina Melati Batubara</p>
+        <p>NIM anggota: 0110226073</p>
+        <p>lahir: padangsidimpuan, 28 Januari 2008</p>
+        <p>
+          Program studi / Kelas / Jurusan: Teknik Informatika Tempat, tanggal
+        </p>
+        <p>Hobi:masak dan dengarin musik</p>
+        <p>
+          Instagram:
+          <a
+            href="https://www.instagram.com/erinnnnnnnnnnnnnnn28?mdxt=cDdudG9vMjhkZnh5"
+            target="_blank"
+            >@Erinnn</a
+          >
+        </p>
+      </div>
+      <div class="categories">
+        <h3>Minat dan bakat</h3>
+        <p>Olahraga</p>
+        <p>masak</p>
+        <p>Music</p>
+        <p>Ngaji</p>
+      </div>
+    </div>
+    <div class="deskripsi-diri">
+      <p>
+        Nama saya Erina Melati Batubara, seorang remaja berumur 18 tahun, lahir
+        pada tahun 2008 tanggal 28 bulan januari. Saya tinggal atau ngekost di
+        srengseng sawah mahasiswa semester 1 jurusan teknik informatika di STT
+        Terpadu Nurul fikri.
+      </p>
+      <br />
+      <p>
+        Makanan favorit saya adalah ayam geprek, saya suka memasak, saya suka,
+        saya suka mendengarkan musik.
+      </p>
+    </div>
+    <div class="konten-multimedia">
+      <div class="area-video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/1rayl7gzKhU?si=qrhrnJLTITnmB_Ku"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="koleksi-foto">
+        <img
+          src="assets/img/WhatsApp Image 2026-10-23 at 19.57.05 (1).jpeg"
+          alt=""
+        />
+        <img
+          src="assets/img/WhatsApp Image 2026-10-23 at 19.57.08.jpeg"
+          alt=""
+        />
+        <img
+          src="assets/img/WhatsApp Image 2026-10-23 at 19.57.07.jpeg"
+          alt=""
+        />
+        <img
+          src="assets/img/WhatsApp Image 2026-10-23 at 19.57.06.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="download-file">
+        <fieldset>
+          <legend>Download File Prakktikum Lainnya</legend>
+          <a
+            href="../praktikummandiri01/kelompok_8_desainuiux_pemweb.html"
+            download="kelompok_8_desainuiux_pemweb.html"
+            >download_file_prakktikum01</a
+          >
+          <a
+            href="../praktikummandiri02/prak2_kelompok_7_desainuiux_pemweb.html"
+            download="prak2_kelompok_7_desainuiux_pemweb.html"
+            >download_file_prakktikum02</a
+          >
+          <a
+            href="../praktikummandiri03/web_profile.html"
+            download="web_profile.html"
+            >download_file_prakktikum03</a
+          >
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
