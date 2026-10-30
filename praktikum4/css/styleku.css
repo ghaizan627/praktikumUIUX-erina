@@ -1,0 +1,111 @@
+body {
+  background-color: #f5f5dd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 20px;
+}
+
+h3 {
+  color: #0d09bf;
+}
+
+#header {
+  background-color: #deb887;
+  padding: 10px;
+
+  h1 {
+    color: #0d09bf;
+    text-align: center;
+  }
+
+  blockquote {
+    background-color: #fed603;
+    text-align: center;
+  }
+}
+
+.nav {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+.gambar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  img {
+    width: 200px;
+  }
+}
+
+.isi {
+  .capitalize {
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+  }
+}
+
+#beternak {
+  background-color: #deb887;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  padding: 2px 0 10px;
+
+  ol {
+    display: flex;
+    text-align: left;
+    gap: 1rem;
+  }
+}
+
+.koleksi {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5rem;
+
+  img {
+    width: 200px;
+    border: solid 3px #0d09bf;
+  }
+}
+
+.promo {
+  h2,
+  h3 {
+    color: #0d09bf;
+    text-align: center;
+  }
+}
+
+.ecommerce-link {
+  margin-top: 30px;
+  h4 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+        background-color: #0d09bf;
+        padding: 10px;
+        border-radius: 40px;
+      }
+    }
+  }
+}
